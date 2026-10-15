@@ -1,4 +1,4 @@
-# Jellyfin for dumbphones
+# Jellyfin for Symbian
 
 **English** · [Русский](документация/README.md)
 
