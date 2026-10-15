@@ -1,0 +1,14 @@
+# Секреты и личное
+token.txt
+*.log
+zhurnaly/
+журналы/
+
+# Собранное и временное
+*.sis
+*.exe
+*.o
+__pycache__/
+*.pyc
+*.bak-*
+Makefile*

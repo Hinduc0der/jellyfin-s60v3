@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Почему вокруг картинки бывают чёрные поля. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="900" height="420" fill="#F7F7FB"/>
+  <text x="450" y="34" text-anchor="middle" font-size="19" font-weight="bold" fill="#101A33">Почему бывают чёрные поля</text>
+  <text x="450" y="58" text-anchor="middle" font-size="13" fill="#555">Кино снято в одной форме, экран телефона в другой. Кадр не режется и не растягивается — значит где-то остаётся пустое место.</text>
+
+  <!-- Обычный телефон -->
+  <text x="230" y="100" text-anchor="middle" font-size="14" font-weight="bold" fill="#101A33">Обычный телефон: 320x240</text>
+  <rect x="90" y="115" width="280" height="210" fill="#101A33" rx="4"/>
+  <rect x="90" y="141" width="280" height="158" fill="#7B5CD6"/>
+  <text x="230" y="226" text-anchor="middle" font-size="13" fill="#FFFFFF">кадр 16:9</text>
+  <text x="230" y="348" text-anchor="middle" font-size="12" fill="#555">поля сверху и снизу</text>
+
+  <!-- E90 -->
+  <text x="670" y="100" text-anchor="middle" font-size="14" font-weight="bold" fill="#101A33">Nokia E90: 800x352</text>
+  <rect x="490" y="141" width="360" height="158" fill="#101A33" rx="4"/>
+  <rect x="530" y="141" width="281" height="158" fill="#7B5CD6"/>
+  <text x="670" y="226" text-anchor="middle" font-size="13" fill="#FFFFFF">кадр 16:9</text>
+  <text x="670" y="348" text-anchor="middle" font-size="12" fill="#555">поля слева и справа</text>
+
+  <text x="450" y="390" text-anchor="middle" font-size="13" fill="#101A33">Полей почти нет, когда форма кадра совпадает с формой экрана:</text>
+  <text x="450" y="410" text-anchor="middle" font-size="13" fill="#101A33">широкое кино на E90 занимает экран целиком, а старый сериал 4:3 — экран обычного телефона.</text>
+</svg>
