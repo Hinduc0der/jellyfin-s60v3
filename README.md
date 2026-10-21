@@ -49,11 +49,13 @@ a queue: press one track and the whole album follows, with auto-advance,
 skipping and shuffle; the app plays it itself, and the companion is not
 involved at all.
 
-**Doesn't, and won't:** seeking *during* playback. The built-in player exposes
-no scrub bar for streams and no fast-forward keys, and that is the player's
-limitation, not the server's. You pick the position in the app before starting
-instead — continue, start over, or type a minute. Also no subtitles and no
-choosing between audio tracks.
+**Seeking while you watch:** hold the scroll key **up** to go forward, **down**
+to go back. There is no scrub bar — the held key is the whole interface, and it
+is RealPlayer's own control, documented in the Nokia user guide. Left and right
+change the volume. For a long jump it is still quicker to leave the player and
+start the episode at a chosen minute.
+
+**Doesn't, and won't:** subtitles, and choosing between audio tracks.
 
 **Quality:** sized to the phone's screen and no larger. On a typical device
 that's 320x240, on a Nokia E90 it's 800x352 — roughly 200–600 kbit/s. An

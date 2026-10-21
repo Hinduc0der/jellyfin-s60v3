@@ -43,8 +43,6 @@ set `PROBA_ZAPOLNIT=1` on the server. The default keeps the whole frame.
 
 ## What not to expect
 
-* **No seeking during playback.** This is the built-in player, not us. Choose
-  the position in the app before you start.
 * **No subtitles, no audio track selection.**
 * **No 4:3 content filling the screen.** It will have very wide bars. That is
   correct; a 2.27:1 screen is simply much wider than 4:3.

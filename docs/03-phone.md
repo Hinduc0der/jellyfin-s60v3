@@ -69,17 +69,17 @@ After that you get the library.
   never sees it happen, so without asking again it would offer you the minute
   you started from.
 
-### No seeking during playback
+### Seeking during playback
 
-The built-in player offers no scrub bar for streams and no fast-forward keys:
-during playback up and down do nothing, and left and right change the volume.
-This is the player's own limitation and nothing on the server side changes it
-— the stream *is* advertised as seekable, with its real duration.
+**Hold** the scroll key up to fast-forward, down to rewind. A short press does
+nothing, which is why the gesture is easy to miss: there is no scrub bar and no
+hint on screen. It is RealPlayer's own control, documented in the Nokia user
+guide, and it works on a stream as it does on a file. Left and right change the
+volume.
 
-So the position is chosen **before** playback, in the app: pick the episode and
-choose "Start at a chosen minute...". To jump while watching, leave the player,
-pick the same episode again and type a different minute — the app already knows
-where you were, because the server has been reporting it as you watched.
+For a long jump it is usually quicker to leave the player, pick the same
+episode and choose "Start at a chosen minute..." — the app already knows where
+you were, because the server reports your position as you watch.
 
 ### What the player will ask
 
